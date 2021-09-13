@@ -1,2 +1,215 @@
-
 /* css */
+body {
+  background-color: lightblue;
+}
+
+.head {
+  height: 200px;
+  width: 200px;
+  top: 100px;
+  left: 100px;
+  border-radius: 50% 80px;
+  transform: rotate(135deg);
+  display: inline-block;
+  background-color: #f8d9bd;
+  position: absolute;
+}
+
+.eyes-left {
+  height: 40px;
+  width: 40px;
+  top: 170px;
+  left: 145px;
+  border-radius: 100% 0px;
+  transform: rotate(45deg);
+  display: inline-block;
+  background-color: white;
+  position: absolute;
+}
+
+.eyeball-left {
+  height: 20px;
+  width: 20px;
+  top: 180px;
+  left: 155px;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  display: inline-block;
+  background-color: black;
+  position: absolute;
+}
+
+.eyes-right {
+  height: 40px;
+  width: 40px;
+  top: 170px;
+  left: 230px;
+  border-radius: 100% 0px;
+  transform: rotate(45deg);
+  display: inline-block;
+  background-color: white;
+  position: absolute;
+}
+
+.eyeball-right {
+  height: 20px;
+  width: 20px;
+  top: 180px;
+  left: 240px;
+  border-radius: 50%;
+  transform: rotate(45deg);
+  display: inline-block;
+  background-color: black;
+  position: absolute;
+}
+
+.lip {
+  width: 50px;
+  height: 40px;
+  top: 220px;
+  left: 180px;
+  border: solid 2px red;
+  border-color: transparent transparent red transparent;
+  border-radius: 100%;
+  display: inline-block;
+  position: absolute;
+}
+
+.left-brow {
+  width: 60px;
+  height: 50px;
+  top: 160px;
+  left: 120px;
+  border: solid 5px #000;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 240px 50%/60px;
+  transform: rotate(190deg);
+  display: inline-block;
+  position: absolute;
+}
+
+.right-brow {
+  width: 60px;
+  height: 50px;
+  top: 160px;
+  left: 220px;
+  border: solid 5px #000;
+  border-color: transparent transparent #000 transparent;
+  border-radius: 0 0 240px 50%/60px;
+  transform: rotateX(150deg);
+  display: inline-block;
+  position: absolute;
+}
+
+.nose {
+  width: 18px;
+  height: 12px;
+  top: 220px;
+  left: 200px;
+  transform: rotate(30deg);
+  border-radius: 75%;
+  box-shadow: 1px 1px 0 0 black;
+  display: inline-block;
+  position: absolute;
+}
+
+.hair-left-top {
+  width: 140px;
+  height: 100px;
+  top: 60px;
+  left: 90px;
+  background-color: black;
+  border-radius: 100% 10px;
+  transform: rotate(10deg);
+  display: inline-block;
+  position: absolute;
+}
+
+.hair-right-top {
+  width: 130px;
+  height: 100px;
+  top: 60px;
+  left: 180px;
+  background-color: black;
+  border-radius: 100% 10px;
+  transform: rotate(250deg);
+  display: inline-block;
+  position: absolute;
+}
+
+.hair-left-middle {
+  width: 140px;
+  height: 100px;
+  top: 100px;
+  left: 43px;
+  background-color: black;
+  border-radius: 100% 10px;
+  transform: rotate(330deg);
+  display: inline-block;
+  position: absolute;
+}
+
+.hair-right-middle {
+  width: 140px;
+  height: 90px;
+  top: 100px;
+  left: 220px;
+  background-color: black;
+  border-radius: 100% 10px;
+  transform: rotate(260deg);
+  display: inline-block;
+  position: absolute;
+}
+
+.hair-left-bottom {
+  width: 140px;
+  height: 100px;
+  top: 150px;
+  left: 30px;
+  background-color: black;
+  border-radius: 100% 10px;
+  transform: rotate(310deg);
+  display: inline-block;
+  position: absolute;
+}
+
+.hair-right-bottom {
+  width: 140px;
+  height: 80px;
+  top: 150px;
+  left: 240px;
+  background-color: black;
+  border-radius: 100% 10px;
+  transform: rotate(100deg);
+  display: inline-block;
+  position: absolute;
+}
+
+.hair-left-bottom-2 {
+  width: 65px;
+  height: 100px;
+  top: 210px;
+  left: 65px;
+  background-color: black;
+  transform: rotate(0deg);
+  display: inline-block;
+  position: absolute;
+}
+
+.hair-right-bottom-2 {
+  width: 56px;
+  height: 100px;
+  top: 210px;
+  left: 285px;
+  background-color: black;
+  transform: rotate(0deg);
+  display: inline-block;
+  position: absolute;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 50px;
+}
